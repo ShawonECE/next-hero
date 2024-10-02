@@ -33,6 +33,7 @@ const NavBar = () => {
                         <li><Link className={pathName === '/' ? 'text-teal-600' : ''} href={'/'}>Home</Link></li>
                         <li><Link className={pathName === '/about' ? 'text-teal-600' : ''} href={'/about'}>About</Link></li>
                         <li><Link className={pathName === '/contact' ? 'text-teal-600' : ''} href={'/contact'}>Contact</Link></li>
+                        <li><Link className={pathName === '/blogs' ? 'text-teal-600' : ''} href={'/blogs'}>Blogs</Link></li>
                     </ul>
                 </div>
                 <a className="btn btn-ghost text-xl">daisyUI</a>
@@ -42,6 +43,7 @@ const NavBar = () => {
                     <li><Link className={pathName === '/' ? 'text-teal-600' : ''} href={'/'}>Home</Link></li>
                     <li><Link className={pathName === '/about' ? 'text-teal-600' : ''} href={'/about'}>About</Link></li>
                     <li><Link className={pathName === '/contact' ? 'text-teal-600' : ''} href={'/contact'}>Contact</Link></li>
+                    <li><Link className={pathName === '/blogs' ? 'text-teal-600' : ''} href={'/blogs'}>Blogs</Link></li>
                 </ul>
             </div>
             <div className="navbar-end">
